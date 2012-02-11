@@ -4,15 +4,7 @@ This library allows you to use your own CartoDB tables with Google Maps v3.
 
 # Using the library
 
-Using the library is really easy, you'll only need:
-
-* Your CartoDB user name.
-* A public table.
-* A query.
-
-## Library Parameters
-
-The library accepts certain parameters to manage the CartoDB layer:
+Using the library is really easy. It accepts the following parameters to manage the behavior of your CartoDB layers:
 
 <table>
 <tr>
