@@ -81,8 +81,9 @@ Using the library is really easy. It accepts the following parameters to manage 
 
 </table>
 
-Note: If you choose a CartoDB private table you'll need to authenticate for using API methods.
-Note: If you want to show specific columns for `infowindow`, it must be a query, adding it 'WHERE cartodb_id={{feature}}', later it will be replace by the clicked cartodb_id. **cartodb_id** and **the_geom_webmercator** are REQUIRED parameters
+# Usage notes
+
+If you choose a CartoDB private table you'll need to [authenticate](http://developers.cartodb.com/api/authentication.html) beforehand. If you want to show specific columns in the info window (via the `infowindow` parameter), the columns must be in a query using `WHERE` clauses. Keep in mind the `cartodb_id` and `the_geom_webmercator` columns are required.
 
 # Example
 
